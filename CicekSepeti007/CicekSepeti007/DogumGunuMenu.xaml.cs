@@ -19,12 +19,14 @@ namespace CicekSepeti007
 
         private void MainMenu(object sender, EventArgs e)
         {
-
+            MainMenu main = new MainMenu();
+            this.Navigation.PushModalAsync(main);
         }
 
         private void TumUrunler(object sender, EventArgs e)
         {
-
+            TumUrunler tum = new TumUrunler();
+            this.Navigation.PushModalAsync(tum);
         }
     }
 }

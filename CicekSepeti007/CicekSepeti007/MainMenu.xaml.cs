@@ -32,5 +32,11 @@ namespace CicekSepeti007
             DogumGunuMenu dgm = new DogumGunuMenu();
             this.Navigation.PushModalAsync(dgm);
         }
+
+        private void TumUrunlerclk(object sender, EventArgs e)
+        {
+            TumUrunler tum = new TumUrunler();
+            this.Navigation.PushModalAsync(tum);
+        }
     }
 }
