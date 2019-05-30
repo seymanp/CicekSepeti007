@@ -14,6 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="DogumGunuMenu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="MainMenu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

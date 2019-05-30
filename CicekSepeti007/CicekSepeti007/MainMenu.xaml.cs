@@ -29,7 +29,8 @@ namespace CicekSepeti007
 
         private void Click_DogumGunu(object sender, EventArgs e)
         {
-
+            DogumGunuMenu dgm = new DogumGunuMenu();
+            this.Navigation.PushModalAsync(dgm);
         }
     }
 }
